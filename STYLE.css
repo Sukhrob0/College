@@ -1,14 +1,6 @@
 body{
     background-color: aqua;
 }
-.nav{
-
-    display: flex;
-    align-items: flex-start;
-    flex-wrap: nowrap;
-    height: 100%;
-    
-}
 .nav {
     display: flex;
     align-items: flex-start;
