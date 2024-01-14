@@ -9,4 +9,5 @@ body{
   }
   .child {
     width: 40%;
+    height: auto;
   }
