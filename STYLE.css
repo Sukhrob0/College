@@ -1,0 +1,5 @@
+.nav{
+    display: flexbox;
+    align-items: center;
+    flex-wrap: nowrap;
+}
