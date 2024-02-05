@@ -1,10 +1,14 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    color: aliceblue;
+}
 header{
     background-color: rgb(63, 59, 59);
     background-image: url(./../img/Rectangle\ 1441.jpg);
     aspect-ratio: 1440/1084;
     background-size: cover;
-   
-  
+     
 
 }
 
@@ -14,21 +18,27 @@ header{
     margin: 0 auto;
 }
 
-ul{
-    display: flex;
-
-    justify-content: center;
+.nav {
+    display: grid;
+    grid-template-columns: 2fr 8fr 2fr;
+    gap: 20px;
     
+}
+.logo {
+    align-self: center;
+}
+.nav-list {
+    align-self: center;
+    justify-self: center;
+}
+.nav-list_item {
+}
+.nav-list_item_link {
+}
+.cart {
+}
+.cart_img {
+}
+.cart_count {
+}
 
-}
-li{
-    
-    list-style: none; 
-    margin-left:50px ;
-}
-a{
-    
-    text-decoration: none;
-    color: aliceblue;
-
-}
